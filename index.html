@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모두보훈 - 국가유공자를 위한 모바일 할인 서비스</title>
+    <meta name="description" content="국가유공자와 그 유가족을 위한 모바일 신분증 기반 할인 서비스 플랫폼. QR코드로 간편하게 할인 혜택을 받으세요.">
+    <meta name="keywords" content="모두보훈, 국가유공자, 할인서비스, 모바일신분증, 국가보훈부, 세븐일레븐">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="모두보훈 - 국가유공자를 위한 모바일 할인 서비스">
+    <meta property="og:description" content="국가유공자와 그 유가족을 위한 모바일 신분증 기반 할인 서비스 플랫폼">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.3mmail.net">
+    <meta property="og:locale" content="ko_KR">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="모두보훈 - 국가유공자를 위한 모바일 할인 서비스">
+    <meta name="twitter:description" content="국가유공자와 그 유가족을 위한 모바일 신분증 기반 할인 서비스 플랫폼">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "모두보훈",
+        "description": "국가유공자와 그 유가족을 위한 모바일 신분증 기반 할인 서비스 플랫폼",
+        "url": "https://www.3mmail.net",
+        "telephone": "1899-6863",
+        "email": "totoro@naver.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "KR"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "1899-6863",
+            "contactType": "customer service",
+            "hoursAvailable": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            }
+        },
+        "founder": {
+            "@type": "GovernmentOrganization",
+            "name": "국가보훈부"
+        },
+        "offers": {
+            "@type": "Service",
+            "name": "모두보훈 할인 서비스",
+            "description": "QR코드 기반 디지털 신분증을 통한 할인 혜택 제공",
+            "serviceType": "할인 서비스",
+            "provider": {
+                "@type": "Organization",
+                "name": "모두보훈"
+            }
+        }
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h1 class="nav__logo">모두보훈</h1>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#overview" class="nav__link">서비스 소개</a></li>
+                    <li class="nav__item"><a href="#features" class="nav__link">주요 기능</a></li>
+                    <li class="nav__item"><a href="#how-it-works" class="nav__link">이용 방법</a></li>
+                    <li class="nav__item"><a href="#partners" class="nav__link">파트너십</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">문의</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        국가유공자를 위한<br>
+                        <span class="hero__title-highlight">스마트 할인 서비스</span>
+                    </h1>
+                    <p class="hero__subtitle">
+                        QR코드 기반 모바일 신분증으로<br>
+                        언제 어디서나 간편하게 할인 혜택을 받으세요
+                    </p>
+                    <div class="hero__stats">
+                        <div class="stat">
+                            <span class="stat__number" data-target="83">0</span>
+                            <span class="stat__label">만명 대상</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number" data-target="13000">0</span>
+                            <span class="stat__label">개 매장</span>
+                        </div>
+                    </div>
+                    <div class="hero__cta">
+                        <a href="#overview" class="btn btn--primary">서비스 알아보기</a>
+                        <span class="hero__launch">2025년 8월 출시 예정</span>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="qr-code"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Overview -->
+        <section class="overview" id="overview">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">서비스 개요</h2>
+                    <p class="section__subtitle">국가유공자의 삶의 질 향상을 위한 디지털 혁신 서비스</p>
+                </div>
+                <div class="overview__grid">
+                    <div class="overview__card">
+                        <div class="overview__icon">👥</div>
+                        <h3 class="overview__title">서비스 대상</h3>
+                        <p class="overview__description">국가유공자 및 유가족<br>약 83만명</p>
+                    </div>
+                    <div class="overview__card">
+                        <div class="overview__icon">🏪</div>
+                        <h3 class="overview__title">1차 파트너</h3>
+                        <p class="overview__description">세븐일레븐<br>전국 13,000개 매장</p>
+                    </div>
+                    <div class="overview__card">
+                        <div class="overview__icon">🤝</div>
+                        <h3 class="overview__title">기술 파트너</h3>
+                        <p class="overview__description">NAVER<br>플랫폼 개발 및 운영</p>
+                    </div>
+                    <div class="overview__card">
+                        <div class="overview__icon">🏛️</div>
+                        <h3 class="overview__title">총괄 기관</h3>
+                        <p class="overview__description">국가보훈부<br>정책 수립 및 관리</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Features -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">주요 기능</h2>
+                    <p class="section__subtitle">안전하고 편리한 디지털 할인 서비스의 핵심 기능들</p>
+                </div>
+                <div class="features__grid">
+                    <div class="feature__card">
+                        <div class="feature__icon">📱</div>
+                        <h3 class="feature__title">모바일 신분증</h3>
+                        <p class="feature__description">QR코드 기반 디지털 신분증 발급으로 간편한 신원 확인</p>
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__icon">💰</div>
+                        <h3 class="feature__title">할인 서비스</h3>
+                        <p class="feature__description">가맹점별 차등 할인 혜택으로 실질적인 경제적 도움</p>
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__icon">🔔</div>
+                        <h3 class="feature__title">알림 서비스</h3>
+                        <p class="feature__description">SMS 및 앱 푸시 알림으로 최신 혜택 정보 제공</p>
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__icon">🔒</div>
+                        <h3 class="feature__title">보안 인증</h3>
+                        <p class="feature__description">2FA, SSL/TLS, AES 암호화로 안전한 개인정보 보호</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">이용 방법</h2>
+                    <p class="section__subtitle">4단계 간편한 이용 과정</p>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step__number">1</div>
+                        <div class="step__content">
+                            <h3 class="step__title">앱 다운로드</h3>
+                            <p class="step__description">iOS/Android 앱스토어에서 모두보훈 앱을 다운로드하세요</p>
+                        </div>
+                        <div class="step__icon">📲</div>
+                    </div>
+                    <div class="step">
+                        <div class="step__number">2</div>
+                        <div class="step__content">
+                            <h3 class="step__title">본인인증</h3>
+                            <p class="step__description">국가유공자 증명서를 통한 본인인증 절차를 완료하세요</p>
+                        </div>
+                        <div class="step__icon">✅</div>
+                    </div>
+                    <div class="step">
+                        <div class="step__number">3</div>
+                        <div class="step__content">
+                            <h3 class="step__title">QR코드 생성</h3>
+                            <p class="step__description">할인을 받고 싶을 때 앱에서 QR코드를 생성하세요</p>
+                        </div>
+                        <div class="step__icon">📄</div>
+                    </div>
+                    <div class="step">
+                        <div class="step__number">4</div>
+                        <div class="step__content">
+                            <h3 class="step__title">할인 적용</h3>
+                            <p class="step__description">가맹점에서 QR코드를 스캔하여 자동으로 할인을 받으세요</p>
+                        </div>
+                        <div class="step__icon">🎉</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners -->
+        <section class="partners" id="partners">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">파트너십</h2>
+                    <p class="section__subtitle">신뢰할 수 있는 기관들과의 협력</p>
+                </div>
+                <div class="partners__grid">
+                    <div class="partner__card">
+                        <div class="partner__logo">🏛️</div>
+                        <h3 class="partner__name">국가보훈부</h3>
+                        <p class="partner__role">총괄 관리</p>
+                        <p class="partner__description">정책 수립, 사업 총괄, 예산 관리</p>
+                    </div>
+                    <div class="partner__card">
+                        <div class="partner__logo">🔵</div>
+                        <h3 class="partner__name">NAVER</h3>
+                        <p class="partner__role">기술 파트너</p>
+                        <p class="partner__description">플랫폼 개발, 시스템 운영, 기술 지원</p>
+                    </div>
+                    <div class="partner__card">
+                        <div class="partner__logo">🏪</div>
+                        <h3 class="partner__name">세븐일레븐</h3>
+                        <p class="partner__role">1차 가맹점</p>
+                        <p class="partner__description">전국 13,000개 매장에서 할인 서비스 제공</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">문의하기</h2>
+                    <p class="section__subtitle">궁금한 점이 있으시면 언제든 문의해 주세요</p>
+                </div>
+                <div class="contact__grid">
+                    <div class="contact__card">
+                        <div class="contact__icon">📞</div>
+                        <h3 class="contact__title">고객센터</h3>
+                        <p class="contact__info">1899-6863</p>
+                        <p class="contact__hours">평일 09:00-18:00</p>
+                    </div>
+                    <div class="contact__card">
+                        <div class="contact__icon">✉️</div>
+                        <h3 class="contact__title">이메일</h3>
+                        <p class="contact__info">totoro@naver.com</p>
+                        <p class="contact__hours">24시간 접수</p>
+                    </div>
+                    <div class="contact__card">
+                        <div class="contact__icon">🌐</div>
+                        <h3 class="contact__title">웹사이트</h3>
+                        <p class="contact__info">www.3mmail.net</p>
+                        <p class="contact__hours">언제든 방문</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__logo">모두보훈</h3>
+                    <p class="footer__description">국가유공자를 위한 디지털 혜택 서비스</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__title">서비스</h4>
+                        <ul class="footer__list">
+                            <li><a href="#features" class="footer__link">주요 기능</a></li>
+                            <li><a href="#how-it-works" class="footer__link">이용 방법</a></li>
+                            <li><a href="#partners" class="footer__link">파트너십</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h4 class="footer__title">지원</h4>
+                        <ul class="footer__list">
+                            <li><a href="#contact" class="footer__link">문의하기</a></li>
+                            <li><a href="#" class="footer__link">자주 묻는 질문</a></li>
+                            <li><a href="#" class="footer__link">이용약관</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 국가보훈부. All rights reserved.</p>
+                <p class="footer__launch">2025년 8월 서비스 출시 예정</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
